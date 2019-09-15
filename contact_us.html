@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us | CenturiaX</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/d2d9d0e374.js"></script>
+</head>
+
+<body>
+    <div class="map" id="map"></div>
+    <section class="contact_us">
+        
+        <div class="contact-us-header-box">
+            <h2 class="heading-primary">
+                <span class="heading-primary-main">Get in touch</span>
+            </h2>
+        </div>
+    </section>
+    <section class="contact_info">
+        <div class="contact_info-container">
+            <span class="phone">+1 786 5155527</span>
+            <span class="email">
+                <a href="mailto:sales@centuriax.com">sales@centuriax.com</a>
+            </span>
+            <span class="location">7875 NW 200 ST. Miami FL 33015</span>
+        </div>
+    </section>
+    <section class="contact-form">
+        <div class="contact-form-title">
+            <h3 class="header-title-sub">We would love to hear about your project</h3>
+        </div>
+
+        <form action="" method="post" name="contact">
+            <div class="form">
+                <div class="form-name">
+                    <label for="name">Name
+                        <span class="field-asterisc" >*</span>
+                    </label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-email">
+                    <label for="email">Email
+                        <span class="field-asterisc">*</span>
+                    </label>
+                    <input type="email" name="email" id="email" required >
+                </div>
+                <div class="company_name">
+                    <label for="company_name">Company/Organization
+                        <span class="field-asterisc" >*</span>
+                    </label>
+                    <input type="text" id="company_name" required>
+                </div>
+                <div class="job_title">
+                    <label for="job_title">Job title
+                    </label>
+                    <input type="text" name="job_title" id="job_title">
+                </div>
+            </div>
+            <div class="form-message">
+                <div class="job_title">
+                    <label for="job_title">Message
+                        <span class="field-asterisc" >*</span>
+                    </label>
+                    <textarea name="job_title" id="job_title" class="textarea medium" aria-required="true" aria-invalid="false" rows="10" cols="50" required ></textarea>
+                    
+                </div>
+                
+                <div class="form-btn">
+                    <button class="btn main-btn" type="submit">Submit</button>
+                </div>
+            </div>
+            
+        </form>
+
+
+    </section>
+    <!-- *************************** CALL OF ACTION ************************* -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe-grid">
+                <div class="subscribe-title">
+                    <h4 class="header-title">Subscribe to our Occasional Newsletter?</h4>
+                </div>
+                <div class="subscribe-form">
+                    <form action="" method="post">
+                        <input type="email" name="subscribe-email" id="subscribe-email" placeholder="Your Email Address" required>
+                        <button class="subscribe-btn" type="submit"><i class="subscribe-btn-icon fas fa-paper-plane"></i></button>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<script src="assets/js/javascript.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATTyOrmzTvo4zsRn0QXP84gBYksaG22IE callback=initMap" async defer></script>
+</body>
+
+</html>

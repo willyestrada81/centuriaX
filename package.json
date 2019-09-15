@@ -1,0 +1,16 @@
+{
+  "name": "futura",
+  "version": "1.0.0",
+  "description": "Futura Landing page",
+  "main": "app.js",
+  "scripts": {
+    "compile:main-sass": "node-sass sass/main.scss assets/css/style.css",
+    "compile:about-sass": "node-sass sass/about.scss assets/css/about.css",
+    "compile:services-sass": "node-sass sass/services.scss assets/css/services.css"
+  },
+  "author": "William Estrada",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
